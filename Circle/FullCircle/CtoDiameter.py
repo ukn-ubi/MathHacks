@@ -1,6 +1,6 @@
-PI = 3.14
+import math
 C = input("What is the circumference?")
 C = float(C)
-A = C/PI
+A = C/math.pi
 print(A)
 input("Press enter to close!")
